@@ -108,7 +108,8 @@ if article_keywords:
 
 
 print(f"Filtered articles from hyattsville wire : {len(filtered[filtered['source'] == 'Hyattsville Wire'])}")
-
+print(f"Filtered articles from baltimore banner : {len(filtered[filtered['source'] == 'Baltimore Banner'])}")
+print(f"Filtered articles from capital gazette : {len(filtered[filtered['source'] == 'Capital Gazette'])}")
 
 # 📅 Articles Over Time (Bar Chart, Daily, Side-by-Side)
 st.subheader("📅 Articles Over Time (Bar Chart, Daily)")
