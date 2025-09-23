@@ -1,6 +1,6 @@
 # News Webscraper and Visualization
 
-This project is a visualization dashboard for news articles from two Maryland-based sources: the Baltimore Banner and the Capitol Gazette. The data is stored in a PostgreSQL database hosted on Neon and is sourced through web scraping.
+This project is a visualization dashboard for news articles from three Maryland-based sources: the Baltimore Banner, Capital Gazette, and Hyattsville Wire. The data is stored in a PostgreSQL database hosted on Neon and is sourced through web scraping.
 
 You can find the visualization here: https://maryland-news-visualizer.streamlit.app/ or run the app locally by following the steps below.
 
@@ -46,7 +46,7 @@ You can find the visualization here: https://maryland-news-visualizer.streamlit.
 ## Folder Structure
 
 - `article-visualization/`: Contains the Streamlit app for visualization.
-- `scrapers/`: Contains web scrapers for the Baltimore Banner and Capitol Gazette.
+- `scrapers/`: Contains web scrapers for the Baltimore Banner, Capitol Gazette and Hyattsville Wire.
 - `requirements.txt`: Lists the required Python libraries.
 
 ## Notes
